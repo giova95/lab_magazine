@@ -20,7 +20,7 @@ header {
   top: 0;
   margin: auto;
   background-color: #ffff;
-  height: 126px;
+  height: 120px;
   width: 100%;
   display: block;
 }
@@ -86,7 +86,8 @@ a.btn-sostieni {
   float: right;
   font-family: "TT Norms Pro Regular", sans-serif;
   color: #C4B7B7;
-  font-size: 12px;
+  font-size: 11px;
+  font-weight: bold;
   margin-right: 10%;
 }
 
@@ -516,5 +517,77 @@ footer {
   margin: 8px;
 }
 
-
 /* END FOOTER */
+
+/* START MEDIA QUERIES*/
+
+/* start 1080px*/
+@media screen and (max-width: 1080px) and (min-width: 768px) {
+
+  /* START HEADER */
+
+  .sostegno h2{
+    display: none;
+  }
+
+  .sostegno p{
+    display: none;
+  }
+
+  .navbar ul li:nth-child(1){
+    display: none;
+  }
+
+  .navbar ul li:nth-child(2){
+    display: none;
+  }
+
+  .navbar ul li:nth-child(3){
+    display: none;
+  }
+
+  .navbar ul li:nth-child(4){
+    display: none;
+  }
+ 
+  /* END HEADER*/
+
+}
+/* end 1080px*/
+
+@media screen and (max-width: 768px){
+  /* START HEADER */
+
+  .sostegno h2{
+    display: none;
+  }
+
+  .sostegno p{
+    display: none;
+  }
+
+  .navbar ul li:nth-child(1){
+    display: none;
+  }
+
+  .navbar ul li:nth-child(2){
+    display: none;
+  }
+
+  .navbar ul li:nth-child(3){
+    display: none;
+  }
+
+  .navbar ul li:nth-child(4){
+    display: none;
+  }
+
+  .navbar ul li:nth-child(6){
+    display: none;
+  }
+ 
+  /* END HEADER*/
+
+}
+
+/* END MEDIA QUERIES */
